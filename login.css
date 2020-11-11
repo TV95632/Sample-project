@@ -5,6 +5,7 @@ body {
     font-family: sans-serif;
     background: url(citylight.jpg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .login-box {
