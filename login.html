@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <div>
+            <h1 class="heading">Login</h1>
+        </div>
+        <div class="textarea">
+            <i class="fa fa-user" aria-hiden="true"></i>
+            <input type="text" placeholder="Username" value="" id="inp">
+
+        </div>
+        <div class="textarea ">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" value="">
+        </div>
+        <div><button class="button" onclick="hello()">Sign in</button></div>
+
+    </div>
+    <script>
+        function hello() {
+            var name = document.getElementById("inp").value
+            document.getElementById("inp").innerHTML = name
+            window.alert("Hello, " + name + " Please enter a valid Password")
+        }
+    </script>
+</body>
+
+</html>
